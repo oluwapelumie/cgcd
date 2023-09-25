@@ -1,6 +1,6 @@
 import React from "react";
-import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox from "simpler-react-lightbox";
+import { SRLWrapper } from "simpler-react-lightbox";
 
 const GalleryCard = ({ image }) => {
   return (
