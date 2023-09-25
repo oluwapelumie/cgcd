@@ -7,7 +7,7 @@
     "@expo/next-adapter": "^5.0.2",
     "bootstrap": "^4.5.0",
     "dotenv": "^16.3.1",
-    "next": "^13.4.19",
+    "next": "^13.5.3",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.4.0",
     "next-transpile-modules": "^10.0.1",
