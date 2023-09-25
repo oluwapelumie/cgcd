@@ -30,7 +30,7 @@ const NavLinks = ({ extraClassName }) => {
         </Link>
       </li>
       <li className="dropdown">
-        <Link href="/volunteers">
+        <Link href="/">
           <>
             <>Volunteer</>
             <button
