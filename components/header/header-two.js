@@ -5,6 +5,7 @@ import NavLinks from "./nav-links";
 
 import flag1 from "../../assets/images/resources/flag-1-1.jpg";
 import logoDark from "../../assets/images/logo-dark.png";
+import Image from "next/image";
 
 const HeaderTwo = () => {
   useEffect(() => {
@@ -72,7 +73,7 @@ const HeaderTwo = () => {
           <div className="logo-box">
             <Link href="/">
              
-                <img src={logoDark} width="101" alt="" />
+                <Image src={logoDark} width="101" alt="" height="97"/>
              
             </Link>
             <span className="fa fa-bars mobile-nav__toggler"></span>

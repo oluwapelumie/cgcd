@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 import banner1 from "../../assets/images/main-slider/slider-2-1.jpg";
 import banner2 from "../../assets/images/main-slider/slider-1-2.jpg";
+import Image from "next/image";
 
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
@@ -28,8 +29,9 @@ const MainSliderTwo = () => {
         <SwiperSlide>
           <div
             className="image-layer"
-            style={{ backgroundImage: `url(${banner1})` }}
+            // style={{ backgroundImage: `url(${banner1})` }}
           ></div>
+<Image src={banner1} alt="" className="image-layer"  layout="fill" objectFit="cover" objectPosition="center" />
 
           <Container>
             <Row className=" justify-content-start">
@@ -52,9 +54,9 @@ const MainSliderTwo = () => {
         <SwiperSlide>
           <div
             className="image-layer"
-            style={{ backgroundImage: `url(${banner2})` }}
+            // style={{ backgroundImage: `url(${banner2})` }}
           ></div>
-
+<Image src={banner2} alt="" className="image-layer"  layout="fill" objectFit="cover" objectPosition="center" />
           <Container>
             <Row className=" justify-content-start">
               <Col xl={6} lg={12} className="text-left">
@@ -76,8 +78,9 @@ const MainSliderTwo = () => {
         <SwiperSlide>
           <div
             className="image-layer"
-            style={{ backgroundImage: `url(${banner1})` }}
+            // style={{ backgroundImage: `url(${banner1})` }}
           ></div>
+<Image src={banner1} alt="" className="image-layer"  layout="fill" objectFit="cover" objectPosition="center" />
 
           <Container>
             <Row className="justify-content-start">

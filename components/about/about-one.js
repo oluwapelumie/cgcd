@@ -4,6 +4,7 @@ import about1 from "../../assets/images/shapes/about-bag-1-1.png";
 import about2 from "../../assets/images/resources/about-1-1.jpg";
 import about3 from "../../assets/images/resources/about-1-2.jpg";
 import heart from "../../assets/images/shapes/heart-2-1.png";
+import Image from "next/image";
 
 const AboutOne = () => {
   return (
@@ -11,13 +12,13 @@ const AboutOne = () => {
       <Container>
         <Row>
           <div className="about-one__award">
-            <img src={about1} width="151" alt="" />
+            <Image src={about1} width="151" alt="" height="142" />
           </div>
           <Col lg={6}>
-            <img src={about2} alt="" className="img-fluid" />
+            <Image src={about2} alt="" className="img-fluid" width={800} height={800} />
           </Col>
           <Col lg={6}>
-            <img src={about3} alt="" className="img-fluid" />
+            <Image src={about3} alt="" className="img-fluid" width={800} height={800} />
           </Col>
         </Row>
       </Container>

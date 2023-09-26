@@ -13,7 +13,7 @@ const VideoCard = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="/"
         onClose={() => setOpen(false)}
       />
       <div
