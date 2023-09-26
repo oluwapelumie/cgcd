@@ -28,14 +28,14 @@ const MobileNav = () => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="azino-icon-email"></i>
-            <a href="mailto:needhelp@azino.com">needhelp@azino.com</a>
+            <a href="mailto:needhelp@azino.com">cgcd@gmail.com</a>
           </li>
           <li>
             <i className="azino-icon-telephone"></i>
             <a href="tel:666-888-0000">666 888 0000</a>
           </li>
         </ul>
-        <div className="mobile-nav__top">
+        {/* <div className="mobile-nav__top">
           <div className="mobile-nav__language">
             <img src={flag1} alt="" />
             <label className="sr-only" htmlFor="language-select">
@@ -61,7 +61,7 @@ const MobileNav = () => {
               <i className="fab fa-instagram"></i>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
