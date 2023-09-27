@@ -28,7 +28,7 @@ const ContactFormOne = () => {
                 <a href="#" aria-label="pinterest">
                   <i className="fab fa-pinterest-p"></i>
                 </a> */}
-                <a href="instagram/cgim_gracechapel" aria-label="instagram">
+                <a href="https://instagram.com/cgim_gracechapel" aria-label="instagram">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>
