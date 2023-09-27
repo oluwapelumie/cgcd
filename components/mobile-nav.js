@@ -32,7 +32,7 @@ const MobileNav = () => {
           </li>
           <li>
             <i className="azino-icon-telephone"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:908-966-1752">908-966-1752</a>
           </li>
         </ul>
         <div className="mobile-nav__top">
@@ -57,7 +57,7 @@ const MobileNav = () => {
             <a href="#" aria-label="pinterest">
               <i className="fab fa-pinterest-p"></i>
             </a> */}
-            <a href="instagram/cgim_gracechapel" aria-label="instagram">
+            <a href="https://instagram.com/cgim_gracechapel" aria-label="instagram">
               <i className="fab fa-instagram"></i>
             </a>
           </div>
