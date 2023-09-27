@@ -35,8 +35,8 @@ const MobileNav = () => {
             <a href="tel:666-888-0000">666 888 0000</a>
           </li>
         </ul>
-        {/* <div className="mobile-nav__top">
-          <div className="mobile-nav__language">
+        <div className="mobile-nav__top">
+          {/* <div className="mobile-nav__language">
             <img src={flag1} alt="" />
             <label className="sr-only" htmlFor="language-select">
               select language
@@ -46,9 +46,9 @@ const MobileNav = () => {
               <option value="arabic">Arabic</option>
             </select>
             <i className="fa fa-caret-down select-icon"></i>
-          </div>
+          </div> */}
           <div className="mobile-nav__social">
-            <a href="#" aria-label="twitter">
+            {/* <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>
             </a>
             <a href="#" aria-label="facebook">
@@ -56,12 +56,12 @@ const MobileNav = () => {
             </a>
             <a href="#" aria-label="pinterest">
               <i className="fab fa-pinterest-p"></i>
-            </a>
-            <a href="#" aria-label="instagram">
+            </a> */}
+            <a href="instagram/cgim_gracechapel" aria-label="instagram">
               <i className="fab fa-instagram"></i>
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

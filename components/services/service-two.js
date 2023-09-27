@@ -29,7 +29,7 @@ const SERVICE_TWO_DATA = [
     image: image3,
     title: "Food Pantry",
     text: "Let's Join",
-    link: "/"
+    link: "/food"
   }
 ];
 const ServiceTwo = () => {

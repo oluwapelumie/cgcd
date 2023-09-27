@@ -49,7 +49,7 @@ const ContactCardCarousel = () => {
               <i aria-label="contact icon" className="azino-icon-address"></i>
               <h3>Address</h3>
               <p>
-              1108 Grove Street, <br /> Irvington, NJ{" "}
+              101 Coit Street,<br /> Irvington, NJ{" "}
                 <br /> America.
               </p>
             </div>
@@ -63,7 +63,7 @@ const ContactCardCarousel = () => {
               <h3>Contact</h3>
               <p>
                 <a href="mailto:">needhelp@gmail.com</a> <br />{" "}
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:908-966-1752">908-966-1752</a>
               </p>
             </div>
           </SwiperSlide>
