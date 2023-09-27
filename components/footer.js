@@ -27,24 +27,23 @@ const Footer = () => {
                 </p>
               </div>
             </Col>
-            {/* <Col lg={12}>
+            <Col lg={12}>
               <div className="footer-widget footer-widget__link mb-40">
-                <h3 className="footer-widget__title">Explore</h3>
+                {/* <h3 className="footer-widget__title">Explore</h3> */}
                 <ul className="list-unstyled footer-widget__link-list">
-                  <Row>
-                  <li>
+                  {/* <li>
                     <Link href="/causes">
                       Our Causes
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/about">
                      About us
                     </Link>
                   </li>
                   <li>
-                    <Link href="/news">
-                      New Campaign
+                    <Link href="/become-volunteer">
+                      Become a Volunteer
                     </Link>
                   </li>
                   <li>
@@ -52,10 +51,9 @@ const Footer = () => {
                       Contact us
                     </Link>
                   </li>
-                  </Row>
                 </ul>
               </div>
-            </Col> */}
+            </Col>
             {/* <Col lg={3} md={6} sm={12}>
               <div className="footer-widget mb-40 footer-widget__blog">
                 <h3 className="footer-widget__title">Blog</h3>
@@ -121,8 +119,9 @@ const Footer = () => {
           >
             <i className="far fa-angle-up"></i>
           </ScrollLink>
-          {/* <p>© Copyright 2020 by Layerdrops.com</p>
-          <div className="footer-social">
+          <p>© 2023 Christ Glory Community Development Center.</p>
+          <p>Design by Voltage</p>
+          {/* <div className="footer-social">
             <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>
             </a>

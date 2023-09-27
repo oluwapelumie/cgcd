@@ -37,7 +37,7 @@ const MainSliderTwo = () => {
             <Row className=" justify-content-start">
               <Col xl={6} lg={12} className="text-left">
                 <h2>
-                  Christian Glory<br /> Community <br /> Development
+                  Christ Glory<br /> Community <br /> Development
                 </h2>
                 <p>Let all that you do be done in love. – 1 Corinthians 16:14</p>
                 {/* <a
@@ -61,7 +61,7 @@ const MainSliderTwo = () => {
             <Row className=" justify-content-start">
               <Col xl={6} lg={12} className="text-left">
               <h2>
-                  Christian Glory<br /> Community <br /> Development
+                  Christ Glory<br /> Community <br /> Development
                 </h2>
                 <p>Let all that you do be done in love. – 1 Corinthians 16:14</p>
                 {/* <a
@@ -86,7 +86,7 @@ const MainSliderTwo = () => {
             <Row className="justify-content-start">
               <Col xl={6} lg={12} className="text-left">
               <h2>
-                  Christian Glory<br /> Community <br /> Development
+                  Christ Glory<br /> Community <br /> Development
                 </h2>
                 <p>Let all that you do be done in love. – 1 Corinthians 16:14</p>
                 {/* <a

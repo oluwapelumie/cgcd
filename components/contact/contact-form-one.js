@@ -18,8 +18,8 @@ const ContactFormOne = () => {
               & Ministers willing to speak with you at any time. Don't keep it all in,
               speak to someone now.{" "}
               </p>
-              {/* <div className="footer-social black-hover">
-                <a href="#" aria-label="twitter">
+              <div className="footer-social black-hover">
+                {/* <a href="#" aria-label="twitter">
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a href="#" aria-label="facebook">
@@ -27,11 +27,11 @@ const ContactFormOne = () => {
                 </a>
                 <a href="#" aria-label="pinterest">
                   <i className="fab fa-pinterest-p"></i>
-                </a>
-                <a href="#" aria-label="instagram">
+                </a> */}
+                <a href="instagram/cgim_gracechapel" aria-label="instagram">
                   <i className="fab fa-instagram"></i>
                 </a>
-              </div> */}
+              </div>
             </div>
           </Col>
           <Col lg={7}>

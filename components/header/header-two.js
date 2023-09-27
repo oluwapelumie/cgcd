@@ -94,7 +94,7 @@ const HeaderTwo = () => {
               <div className="header-info__box-content">
                 <h3>Phone</h3>
                 <p>
-                  <a href="tel:666-888-0000">666 888 0000</a>
+                  <a href="tel:908-966-1752">908-966-1752</a>
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ const HeaderTwo = () => {
               <i className="azino-icon-address"></i>
               <div className="header-info__box-content">
                 <h3>Visit</h3>
-                <p>1108 Grove Street, Irvington, NJ USA</p>
+                <p>101 Coit Street, Irvington, NJ USA</p>
               </div>
             </div>
           </div>
