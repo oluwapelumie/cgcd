@@ -120,7 +120,7 @@ const Footer = () => {
             <i className="far fa-angle-up"></i>
           </ScrollLink>
           <p>© 2023 Christ Glory Community Development Center.</p>
-          <p>Design by Voltage</p>
+          <p>Design by <a href="https://voltage.com.ng">Voltage</a></p>
           {/* <div className="footer-social">
             <a href="#" aria-label="twitter">
               <i className="fab fa-twitter"></i>
