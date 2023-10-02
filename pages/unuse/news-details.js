@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../../layout";
+import Layout from "../../components/layout";
 import HeaderOne from "../../components/header/header-one";
 import StickyHeader from "../../components/header/sticky-header";
-import PageHeader from "../../page-header";
+import PageHeader from "../../components/page-header";
 import BlogDetails from "../../components/blog-details";
 import Footer from "../../components/footer";
 
