@@ -30,24 +30,24 @@ const NavLinks = ({ extraClassName }) => {
         </Link>
       </li>
       <li className="dropdown">
-        <Link href="/">
+        <Link href="/become-volunteer">
           <>
             <>Volunteer</>
-            <button
+            {/* <button
               aria-label="dropdown toggler"
               onClick={handleDropdownStatus}
             >
               <i className="fa fa-angle-down"></i>
-            </button>
+            </button> */}
           </>
         </Link>
-        <ul className="dropdown-list">
+        {/* <ul className="dropdown-list">
           <li>
             <Link href="/become-volunteer">
               <>Become a Volunteer</>
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="dropdown">
         <Link href="/about">

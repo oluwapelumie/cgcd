@@ -1,8 +1,60 @@
 import React from "react";
+import { useState } from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import BlockTitle from "../block-title";
 
 const ContactFormOne = () => {
+  
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [subject, setSubject] = useState('')
+  const [message, setMessage] = useState('')
+  const [submitted, setSubmitted] = useState(false)
+
+  const handleSubmit = (e) => {
+
+    let formElement = e.target;
+  
+    if (formElement instanceof HTMLFormElement) {
+      formElement.reset();
+    }
+  
+    console.log('Sending');
+  
+    let data = {
+      name,
+      email,
+      phone,
+      subject,
+      message
+    };
+  
+    fetch('api/contact', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+    .then((res) => {
+      console.log('Response received');
+      if (res.status === 200) {
+        console.log('Response succeeded!');
+        setSubmitted(true);
+        setName('');
+        setEmail('');
+        setPhone('');
+        setSubject('');
+        setMessage('');
+        // setBody('');
+        // Refresh the form here
+        e.target.reset();
+      }
+    })
+  }
+
   return (
     <section className="contact-page pt-120 pb-80">
       <Container>
@@ -46,6 +98,7 @@ const ContactFormOne = () => {
                     name="name"
                     id="name"
                     placeholder="Your Name"
+                    onChange={(e)=>{setName(e.target.value)}}
                   />
                 </div>
                 <div className="form-control">
@@ -57,6 +110,7 @@ const ContactFormOne = () => {
                     name="email"
                     id="email"
                     placeholder="Email Address"
+                    onChange={(e)=>{setEmail(e.target.value)}}
                   />
                 </div>
                 <div className="form-control">
@@ -68,6 +122,7 @@ const ContactFormOne = () => {
                     name="phone"
                     id="phone"
                     placeholder="Phone Number"
+                    onChange={(e)=>{setPhone(e.target.value)}}
                   />
                 </div>
                 <div className="form-control">
@@ -79,6 +134,7 @@ const ContactFormOne = () => {
                     name="subject"
                     id="subject"
                     placeholder="Subject"
+                    onChange={(e)=>{setSubject(e.target.value)}}
                   />
                 </div>
                 <div className="form-control form-control-full">
@@ -89,10 +145,11 @@ const ContactFormOne = () => {
                     name="message"
                     placeholder="Write a Message"
                     id="message"
+                    onChange={(e)=>{setMessage(e.target.value)}}
                   ></textarea>
                 </div>
                 <div className="form-control form-control-full">
-                  <button type="submit" className="thm-btn ">
+                  <button type="submit" className="thm-btn " onClick={(e)=>{handleSubmit(e)}}>
                     Submit Message
                   </button>
                 </div>
