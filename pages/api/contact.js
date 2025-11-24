@@ -22,10 +22,10 @@ export default function handler(req, res) {
   const mailData = {
     from: 'christglorycommunitydevelopmen@gmail.com',
     to: 'emmanueladediran85@gmail.com',
-    subject: `Volunteer Message From ${req.body.name}`,
+    subject: `${req.body.subject}`,
     text: req.body.message + req.body.phone 
-    + req.body.date + req.body.occupation + req.body.address +" | Sent from: " + req.body.email,
-    html: `<div>${req.body.message}</div><p>Phone: ${req.body.phone}</p><p>Address: ${req.body.address}</p><p>Occupation: ${req.body.occupation}</p><p>Sent from: ${req.body.email}</p>`,
+    +" | Sent from: " + req.body.email,
+    html: `<div>${req.body.message}</div><p>Phone: ${req.body.phone}</p><p>Sent from: ${req.body.email}</p><p>Name: ${req.body.name}</p>`,
   };
 
   transporter.sendMail(mailData, function (err, info) {

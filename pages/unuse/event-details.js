@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Layout from "../components/layout";
-import HeaderOne from "../components/header/header-one";
-import StickyHeader from "../components/header/sticky-header";
-import PageHeader from "../components/page-header";
-import Footer from "../components/footer";
+import Layout from "../../components/layout";
+import HeaderOne from "../../components/header/header-one";
+import StickyHeader from "../../components/header/sticky-header";
+import PageHeader from "../../components/page-header";
+import Footer from "../../components/footer";
 
-import detailsImage from "../assets/images/events/event-details-1-1.jpg";
+import detailsImage from "../../assets/images/events/event-details-1-1.jpg";
 
 const EventDetails = () => {
   return (

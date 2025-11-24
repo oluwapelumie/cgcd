@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import heart from "../../assets/images/shapes/heart-2-1.png";
 import welcomeImage from "../../assets/images/resources/welcome-1-1.png";
 import aboutImage from "../../assets/images/shapes/about-bag-1-2.png";
+import Image from "next/image";
 
 const AboutTwo = () => {
   return (
@@ -14,7 +15,7 @@ const AboutTwo = () => {
             <div className="about-two__image">
               <img src={welcomeImage} alt="" width="100%" />
               <div className="about-two__award">
-                <img src={aboutImage} width="180" alt="" />
+                <Image src={aboutImage} width="190" alt="" height="180" />
               </div>
             </div>
           </Col>
@@ -22,9 +23,9 @@ const AboutTwo = () => {
             <div className="about-two__content">
               <div className="block-title">
                 <p>
-                  <img src={heart} width="15" alt="" /> Christ Glory Community Development
+                  <img src={heart} width="15" alt="" /> Christ Glory Community Development Center
                 </p>
-                <h3>Welcome to Christ Glory Community Development.</h3>
+                <h3>Welcome to Christ Glory Community Development Center.</h3>
               </div>
               <p className="mb-40 pr-10">
               Christ Glory Community Development Center is a 501c(3) Organization, located at 1108 Grove Street, Irvington, NJ. We partner with

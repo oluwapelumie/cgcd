@@ -33,7 +33,7 @@ const VolunteerForm = () => {
       occupation
     };
   
-    fetch('api/volunteer', {
+    fetch('api/food', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',

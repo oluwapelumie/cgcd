@@ -6,6 +6,9 @@ import image1 from "../../assets/images/resources/service-1-1.jpg";
 import image2 from "../../assets/images/resources/service-1-2.jpg";
 import image3 from "../../assets/images/resources/service-1-3.jpg";
 import heart from "../../assets/images/shapes/heart-2-2.png";
+import Image from "next/image";
+
+
 const SERVICE_TWO_DATA = [
   {
     extraClassName: "background-primary",
@@ -26,7 +29,7 @@ const SERVICE_TWO_DATA = [
     image: image3,
     title: "Food Pantry",
     text: "Let's Join",
-    link: "/"
+    link: "/food"
   }
 ];
 const ServiceTwo = () => {
@@ -73,8 +76,9 @@ const ServiceTwo = () => {
               <SwiperSlide key={`service-two-key-${index}`}>
                 <div
                   className={`service-two__box ${extraClassName}`}
-                  style={{ backgroundImage: `url(${image})` }}
+                  // style={{ backgroundImage: `url(${image})` }}
                 >
+                  <Image src={image} layout="fill" objectFit="cover" objectPosition="center" alt="sevice" className="service-two__box"/>
                   <div className="service-two__box-inner">
                     <img src={heart} width="15" alt="" />
                     <p>{text}</p>
@@ -86,7 +90,7 @@ const ServiceTwo = () => {
                     <Link href={link} className="service-two__box-link">
 
                         <i className="far fa-angle-right"></i>
-                      
+
                     </Link>
                   </div>
                 </div>
