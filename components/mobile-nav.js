@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import NavLinks from "./header/nav-links";
 
-import logoLight from "../assets/images/logo-light.png";
+import logoLight from "../assets/images/cgcdo2-logo2.png";
 import flag1 from "../assets/images/resources/flag-1-1.jpg";
 
 const MobileNav = () => {

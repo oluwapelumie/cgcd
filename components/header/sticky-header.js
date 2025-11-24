@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Link from "next/link";
 import NavLinks from "./nav-links";
-import logoLight from "../../assets/images/logo-light.png";
+import logoLight from "../../assets/images/cgcdo2-logo2.png";
 
 const StickyHeader = ({ extraClassName }) => {
   const [sticky, setSticky] = useState(false);

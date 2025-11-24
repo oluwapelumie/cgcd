@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 import NavLinks from "./nav-links";
 
 import flag1 from "../../assets/images/resources/flag-1-1.jpg";
-import logoDark from "../../assets/images/logo-dark.png";
+import logoDark from "../../assets/images/cgcdo2-logo2.png";
 
 const HeaderTwo = () => {
   useEffect(() => {
