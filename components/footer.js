@@ -17,7 +17,7 @@ const Footer = () => {
                 <Link href="/">
                     <img
                       src={logoLight}
-                      className="footer-widget__logo"
+                      className="footer-widget__logo" 
                       width="101"
                       alt=""
                     />
